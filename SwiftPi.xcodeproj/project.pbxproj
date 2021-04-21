@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001BF4C425A34645007C66C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BF4C325A34645007C66C0 /* AppDelegate.swift */; };
+		001BF4C625A34645007C66C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BF4C525A34645007C66C0 /* SceneDelegate.swift */; };
+		001BF4CB25A34645007C66C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001BF4C925A34645007C66C0 /* Main.storyboard */; };
+		001BF4CD25A34648007C66C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BF4CC25A34648007C66C0 /* Assets.xcassets */; };
+		001BF4D025A34648007C66C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001BF4CE25A34648007C66C0 /* LaunchScreen.storyboard */; };
+		001BF4DA25A34706007C66C0 /* PiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BF4D925A34706007C66C0 /* PiView.swift */; };
+		001BF4DD25A34723007C66C0 /* PiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BF4DC25A34723007C66C0 /* PiViewController.swift */; };
+		0090768725C2BAFA00450BD1 /* PiModele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0090768625C2BAFA00450BD1 /* PiModele.swift */; };
+		00BAC06C25D52CC500C4F036 /* highscores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00BAC06B25D52CC500C4F036 /* highscores.plist */; };
+		00BAC06F25D5409200C4F036 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAC06E25D5409200C4F036 /* ScoreViewController.swift */; };
+		00BAC07225D540D800C4F036 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAC07125D540D800C4F036 /* ScoreView.swift */; };
+		00BE8B9925ACA5FF001144BE /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE8B9825ACA5FF001144BE /* Point.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001BF4C025A34645007C66C0 /* SwiftPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001BF4C325A34645007C66C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001BF4C525A34645007C66C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		001BF4CA25A34645007C66C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001BF4CC25A34648007C66C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001BF4CF25A34648007C66C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001BF4D125A34648007C66C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001BF4D925A34706007C66C0 /* PiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiView.swift; sourceTree = "<group>"; };
+		001BF4DC25A34723007C66C0 /* PiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiViewController.swift; sourceTree = "<group>"; };
+		0090768625C2BAFA00450BD1 /* PiModele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiModele.swift; sourceTree = "<group>"; };
+		00BAC06B25D52CC500C4F036 /* highscores.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = highscores.plist; sourceTree = "<group>"; };
+		00BAC06E25D5409200C4F036 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		00BAC07125D540D800C4F036 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		00BE8B9825ACA5FF001144BE /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001BF4BD25A34645007C66C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001BF4B725A34645007C66C0 = {
+			isa = PBXGroup;
+			children = (
+				001BF4C225A34645007C66C0 /* SwiftPi */,
+				001BF4C125A34645007C66C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001BF4C125A34645007C66C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001BF4C025A34645007C66C0 /* SwiftPi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001BF4C225A34645007C66C0 /* SwiftPi */ = {
+			isa = PBXGroup;
+			children = (
+				001BF4C325A34645007C66C0 /* AppDelegate.swift */,
+				00BE8B9825ACA5FF001144BE /* Point.swift */,
+				001BF4C525A34645007C66C0 /* SceneDelegate.swift */,
+				001BF4C925A34645007C66C0 /* Main.storyboard */,
+				001BF4CC25A34648007C66C0 /* Assets.xcassets */,
+				001BF4CE25A34648007C66C0 /* LaunchScreen.storyboard */,
+				001BF4D125A34648007C66C0 /* Info.plist */,
+				001BF4D925A34706007C66C0 /* PiView.swift */,
+				001BF4DC25A34723007C66C0 /* PiViewController.swift */,
+				0090768625C2BAFA00450BD1 /* PiModele.swift */,
+				00BAC06B25D52CC500C4F036 /* highscores.plist */,
+				00BAC06E25D5409200C4F036 /* ScoreViewController.swift */,
+				00BAC07125D540D800C4F036 /* ScoreView.swift */,
+			);
+			path = SwiftPi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001BF4BF25A34645007C66C0 /* SwiftPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001BF4D425A34648007C66C0 /* Build configuration list for PBXNativeTarget "SwiftPi" */;
+			buildPhases = (
+				001BF4BC25A34645007C66C0 /* Sources */,
+				001BF4BD25A34645007C66C0 /* Frameworks */,
+				001BF4BE25A34645007C66C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPi;
+			productName = SwiftPi;
+			productReference = 001BF4C025A34645007C66C0 /* SwiftPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001BF4B825A34645007C66C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					001BF4BF25A34645007C66C0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 001BF4BB25A34645007C66C0 /* Build configuration list for PBXProject "SwiftPi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001BF4B725A34645007C66C0;
+			productRefGroup = 001BF4C125A34645007C66C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001BF4BF25A34645007C66C0 /* SwiftPi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001BF4BE25A34645007C66C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BF4D025A34648007C66C0 /* LaunchScreen.storyboard in Resources */,
+				00BAC06C25D52CC500C4F036 /* highscores.plist in Resources */,
+				001BF4CD25A34648007C66C0 /* Assets.xcassets in Resources */,
+				001BF4CB25A34645007C66C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001BF4BC25A34645007C66C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAC06F25D5409200C4F036 /* ScoreViewController.swift in Sources */,
+				00BAC07225D540D800C4F036 /* ScoreView.swift in Sources */,
+				001BF4DD25A34723007C66C0 /* PiViewController.swift in Sources */,
+				00BE8B9925ACA5FF001144BE /* Point.swift in Sources */,
+				001BF4C425A34645007C66C0 /* AppDelegate.swift in Sources */,
+				001BF4C625A34645007C66C0 /* SceneDelegate.swift in Sources */,
+				0090768725C2BAFA00450BD1 /* PiModele.swift in Sources */,
+				001BF4DA25A34706007C66C0 /* PiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001BF4C925A34645007C66C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001BF4CA25A34645007C66C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001BF4CE25A34648007C66C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001BF4CF25A34648007C66C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001BF4D225A34648007C66C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001BF4D325A34648007C66C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001BF4D525A34648007C66C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X57LP3AL5;
+				INFOPLIST_FILE = SwiftPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josselin.SwiftPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001BF4D625A34648007C66C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X57LP3AL5;
+				INFOPLIST_FILE = SwiftPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Josselin.SwiftPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001BF4BB25A34645007C66C0 /* Build configuration list for PBXProject "SwiftPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BF4D225A34648007C66C0 /* Debug */,
+				001BF4D325A34648007C66C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001BF4D425A34648007C66C0 /* Build configuration list for PBXNativeTarget "SwiftPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BF4D525A34648007C66C0 /* Debug */,
+				001BF4D625A34648007C66C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001BF4B825A34645007C66C0 /* Project object */;
+}
